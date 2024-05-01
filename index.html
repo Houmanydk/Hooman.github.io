@@ -3,41 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Website</title>
+    <title>Security Penetration Tester</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Simple Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Security Penetration Tester</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section id="home">
-            <h2>Welcome to Our Website</h2>
-            <p>This is a simple example of a website built with HTML and CSS.</p>
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Securing the Digital World</h2>
+                <p>Empowering businesses with comprehensive security testing and solutions.</p>
+                <a href="#contact" class="btn">Get in Touch</a>
+            </div>
         </section>
 
-        <section id="about">
-            <h2>About Us</h2>
-            <p>We are a team passionate about creating awesome websites.</p>
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="service">
+                    <h3>Penetration Testing</h3>
+                    <p>Identifying vulnerabilities and weaknesses in your systems before attackers do.</p>
+                </div>
+                <div class="service">
+                    <h3>Security Audits</h3>
+                    <p>Comprehensive assessments to ensure your systems meet security standards.</p>
+                </div>
+                <div class="service">
+                    <h3>Training & Education</h3>
+                    <p>Empowering your team with knowledge and skills to defend against cyber threats.</p>
+                </div>
+            </div>
         </section>
 
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Email: info@example.com</p>
-            <p>Phone: 123-456-7890</p>
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>Email: contact@securitytester.com</p>
+                <p>Phone: 123-456-7890</p>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Simple Website</p>
+        <p>&copy; 2024 Security Penetration Tester</p>
     </footer>
 </body>
 </html>
